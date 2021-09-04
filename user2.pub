@@ -1,0 +1,175 @@
+annanya-Vostro-3580% gpg --gen-key
+gpg (GnuPG) 2.2.19; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Note: Use "gpg --full-generate-key" for a full featured key generation dialog.
+
+GnuPG needs to construct a user ID to identify your key.
+
+Real name: Annanya
+Email address: annanyasmathur2017@gmail.com
+You selected this USER-ID:
+    "Annanya <annanyasmathur2017@gmail.com>"
+
+Change (N)ame, (E)mail, or (O)kay/(Q)uit? o
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+gpg: key 5C369EBF8C9BD9A8 marked as ultimately trusted
+gpg: revocation certificate stored as '/home/annanya/.gnupg/openpgp-revocs.d/55A03832D635684D8BBFFB795C369EBF8C9BD9A8.rev'
+public and secret key created and signed.
+
+pub   rsa3072 2021-09-04 [SC] [expires: 2023-09-04]
+      55A03832D635684D8BBFFB795C369EBF8C9BD9A8
+uid                      Annanya <annanyasmathur2017@gmail.com>
+sub   rsa3072 2021-09-04 [E] [expires: 2023-09-04]
+
+annanya-Vostro-3580% gpd --armou --export <annanyasmathur2017@gmail.com
+zsh: no such file or directory: annanyasmathur2017@gmail.com
+annanya-Vostro-3580% gpd --armou --export annanyasmathur2017@gmail.com 
+zsh: command not found: gpd
+annanya-Vostro-3580% gpg --armou --export annanyasmathur2017@gmail.com
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=ZTFf
+-----END PGP PUBLIC KEY BLOCK-----
+annanya-Vostro-3580% gpg --armou --export annanyasmathur2017@gmail.com > receive.pub 
+annanya-Vostro-3580% ls
+ admin		       DBMS			     Music	   reformat.sh
+'Ananya Mathur.zip'    Desktop			     myfile.txt    snap
+ annanya-Vostro-3580   Documents		     new	   Templates
+ coco		       Downloads		     Pictures	   Videos
+ commandLine	       file.c			     Public
+ cppweb		       go1.16.6.linux-amd64.tar.gz   receive.pub
+annanya-Vostro-3580% cat receive.pub
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQGNBGEzTfABDAC9fPtXSpnZWU9CEMVbaRVoZKcJCNHxm2RVk0Disj3qr/AE1yer
+94EzGF4c3OhyFAQMnFTz6BU4R/EZCV3bZUWLBWO8dJisHYv5MgOwYuyPsA1D4PFL
+MstNl0delO+H9qftyEQ6rv3gPgixTo8ecPo2ZEtA4PKyV5KSUo0u0Pu4ECKFYMZd
+diR+NtPFu8DqJ4Lg3dBPNbGYLs6veF7ld8iiLxEJMsC4W6ykovD76iIcMa076o/8
+4vHocnDQUqsLjvvaZoECUwDC7mc9xlpKBGDEvAt4ualtQi29miWPkvLaVUyNuQLB
+IiMaOq692ZqoXEuX2fu+VlY4du9FGHXmwT3s+wfSu7DjSOraarh5uE0DUSoIjeNT
+Xzrt5DL0BMSojU93vCuuj2FMx28pVmLz+EpPeSBGK6Noz0lruAestq/u96EJ8Iq1
+zwK8xTVHVp+E6FVHZIapLwGhLP1qy1XIV3Hj20PylYjFImQqO8dbV6M3xHw2zsad
+L8/5BMZk6kj4WdUAEQEAAbQmQW5uYW55YSA8YW5uYW55YXNtYXRodXIyMDE3QGdt
+YWlsLmNvbT6JAdQEEwEKAD4WIQRVoDgy1jVoTYu/+3lcNp6/jJvZqAUCYTNN8AIb
+AwUJA8JnAAULCQgHAgYVCgkICwIEFgIDAQIeAQIXgAAKCRBcNp6/jJvZqFkDDACa
+sI2QzEDOqtS5o3iLuw9RDBtLX0Z2sG0CE0zyYpCZjhggfVFmvJdTFC0UOWiRKlkv
+1LW3w45gJcuN06Ax4oT9yKu1w4GlDyF5EIpnBCofofnU4grLegxF4pjGv/pfPn9i
+auo/j35aSW6DKTTR+nl8KMp7JiUfQvrIYAElNRT8zECGRELijVMxBEBfJODMSMaA
+LeOjzJUtmGXeMw1wFx6Tq8tXMHmk45z/dnf4+TkrTzKFASjNq0CWZY4Jwkf5eH6w
+R6Q0IYtHuXIE/yzvNuFhst73GAwjyAAOCBP8gORB7wx3AtfCo7J9HyBwy5qd6z0c
+gxDx1WkR0VI+6t5oWHBgmMOTQiVgbywkkHJ6k5uWzEyhxxOswImctNh7F8Agn/MA
+VAv0VtH5lKd2oFmHTAI4B8QIIglr7fddqy2X1S9lsJiQ1t0rs/9oyokHfOKhx8xC
+eklQT8VMU6xG+bOlbnuIcrA3s1wDxRtJJnuIKlELv+VY1whaJeTUfLkpt4hfKpy5
+AY0EYTNN8AEMANf20ktqJdTorjNIDqU+jxG5vb0ckSJwnWStinozwJhmt7+0S+hD
+KNLiiOAgQbDjG49hF6/FZ+vwmjaz5VWi7zsGtqD+QokFS7D6f3BPxtDXuoS3mg1m
+cKHIiBGCsQQ1jH5JQb62xqWFoenJEP81YzOHNGdi0lww7veop4cnsjc9jdLH5tUw
+ICxpaNVnr1z9ZmK6Z1I+GRBy9H16AMP/0yuGkFSsIj6r/7MLA0Zpc2U96wpRtIW0
+pj03OSt8JhP0+RkKO/+G8RsrpEpSSk2GIClSLKCHlmVr1yJ1B7yZAOCYDwLgZkVY
+b4fUigF0O8cXzubqKUjRpWws5lNJvsw1cDsmbdPvZG5LgdEcF6ejIS0msp+HngFp
+KqYOwluKfk6O0N+cV7Knafgg4PRrI8/MqV4tTVfiaMc0oWuWK6hFcu2zu6/Z/7TG
+2JoBV53jkqVUmhy/GXMQKwL3Ub5hMh8ha1dPeqnnukIXh4mWMZp4RpxvR4j/Jy3L
+ns6WPpP0/uc0NwARAQABiQG8BBgBCgAmFiEEVaA4MtY1aE2Lv/t5XDaev4yb2agF
+AmEzTfACGwwFCQPCZwAACgkQXDaev4yb2ahjlwv/VeIwYuJGlfTpARxMF+JvmS7q
+SpABSpW5LVtVbQpvv6Ixzw9Z/8umOXntpGbE3IupJ0K0qzx6K2aAWv7TzOSfXCjk
+QpItr6704vAzHeY5xvdqKAz8cuBa56khFMUwwXu+C2GZnLtL9lJx23aY5z/QmtpG
+vxgXo9sQ2Pcyts61piGS0S78ZTDp2AE6EhQUtoSp/EaSTh8v5hWWUQXIiJIxLcsM
+8JXrAlqm18eTl+9vtmo5V3ubE9gZR++xoA2trIqDuV4GrC+Q+vAx94m5GLDLRrXa
+JZxeo5xNxXQQO0QXVYH5DolDV3cTydmCjIA0yji/Upz8qxuDhd+Stvj3tIQxGiW+
+HkDZWIbsGv+C54t3i4C1MozgZOdJ+cKaK3ff1lISDSVRreBZbKMs6SVXP44q/CQd
+QoYBymsWpU64nQxEz8BpFcbYjyWd8cF5I9hT2YU8qbv+rIAc3ulLvs/E/9VTgRZn
+RB+DU58I3Bj4i4AFQrYoKKsPw1UXayYiQu5L/2nH
+=ZTFf
+-----END PGP PUBLIC KEY BLOCK-----
+annanya-Vostro-3580% ls
+ 2ndPublicKey.pub      Documents		     new
+ admin		       Downloads		     Pictures
+'Ananya Mathur.zip'    EncrptedMessage.pub	     Public
+ annanya-Vostro-3580   EncryptedMessage.pub	     PublicKey.pub
+ coco		       file.c			     reformat.sh
+ commandLine	       go1.16.6.linux-amd64.tar.gz   snap
+ cppweb		       message.txt		     Templates
+ DBMS		       Music			     Videos
+ Desktop	       myfile.txt
+annanya-Vostro-3580% la  
+zsh: command not found: la
+annanya-Vostro-3580% ls
+ 2ndPublicKey.pub      Documents		     Pictures
+ admin		       Downloads		     Public
+'Ananya Mathur.zip'    EncryptedMessage.pub	     PublicKey.pub
+ annanya-Vostro-3580   file.c			     reformat.sh
+ coco		       go1.16.6.linux-amd64.tar.gz   snap
+ commandLine	       message.txt		     Templates
+ cppweb		       Music			     Videos
+ DBMS		       myfile.txt
+ Desktop	       new
+annanya-Vostro-3580% cat EncryptedMessage.pub
+-----BEGIN PGP MESSAGE-----
+
+hQGMA36ww2REF2APAQv+Jk5I85Z44mw9nduV/RSbAaI51p3FYGBVtZmviIacEsji
+ylxlDHpIxfceZ8vFkg9Vb2fzehs6ks6nnypasRpRPucJcGcA2el22bv2ppMv4xbw
+YIV/rM+Z+QXBFHFi62/rM6FJ1+O9jHuWgz2Nj+/LgSoliap+SRUHcAiM1mb9jhHJ
+RFOEksHsHSLmSCqRZX4QOj7/bi1MXJBptPWZhBkUdJhlAnTKvydxBgh1k/YCOyDM
+p0FX9UtF0YGNUS1wjaK7n0sGgIQ02MeQ+I0YpcEJndQNRQ3/8G7dwG/5pVPGJR8O
+b4NsCGMIxQ007CTTVxrKPaSLz37BBAfhsrrj75zRJwe3sfoxPHo1/chpl6P5LqR2
++hCgyG8oUap/euRThg3hWmcG9yEKAzkN1soLrm8QxGq6PYw3eRpGgyyHYx0c3I7I
+rXVuogAJZt37Xd5mOS4wOaPdQHpP6qRWgb9yVdJF7yojCEf3UEuw7ObOr+yOGaEm
+yaCY0Yzk61/qG30v+2jR0ngBj4lZ587wOc9lfEa/c0ADuoKykKd9xIlN6MVumPfl
+jIIUgx5PrCvcNMlxK9nWKat2QtBDYO6IGLl0XT4tWwhPNhX0VTMjqi5PNBMSfcrT
+OY3t2fiW5XAhbDQ/VpeHfuXhA+P1Fy4MCKL6/RYFJnBfiTWZ6db9KBg=
+=K5UN
+-----END PGP MESSAGE-----
+
+annanya-Vostro-3580% gpg --decrypt EncryptedMessage.pub
+gpg: encrypted with 3072-bit RSA key, ID 7EB0C3644417600F, created 2021-09-04
+      "Annanya <annanyasmathur2017@gmail.com>"
+Hi Akarshi!
+I hope you receive my message.
+
+Thank you 
+Annanya
